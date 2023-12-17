@@ -1,73 +1,89 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #e0e5ec;
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 .navbar {
-    background-color: #ffffff;
-    box-shadow: 7px 7px 14px #bebebe, -7px -7px 14px #ffffff;
+    background-color: #e0e0e0;
+    box-shadow: 8px 8px 15px #a3a3a3, -8px -8px 15px #ffffff;
     padding: 10px 0;
-    text-align: center;
 }
 
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
-.navbar ul li {
-    display: inline;
-    margin-right: 20px;
+.navbar li {
+    float: left;
 }
 
-.navbar ul li a {
-    text-decoration: none;
+.navbar a {
+    display: block;
     color: #333;
-    font-size: 18px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #d1d1d1;
+    box-shadow: inset 5px 5px 10px #a3a3a3, inset -5px -5px 10px #ffffff;
 }
 
 .main-container {
     padding: 20px;
+    text-align: center;
 }
 
 .code-input-section {
-    background-color: #ffffff;
-    box-shadow: 7px 7px 14px #bebebe, -7px -7px 14px #ffffff;
+    background-color: #e0e0e0;
+    box-shadow: 8px 8px 15px #a3a3a3, -8px -8px 15px #ffffff;
+    border-radius: 20px;
     padding: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto;
+    max-width: 600px;
 }
 
 textarea {
-    width: 100%;
+    width: 90%;
     height: 150px;
-    margin-bottom: 10px;
+    margin: 10px 0;
     border: none;
-    box-shadow: inset 6px 6px 6px #bebebe, inset -6px -6px 6px #ffffff;
     padding: 10px;
-    font-size: 16px;
+    border-radius: 15px;
+    box-shadow: inset 8px 8px 15px #a3a3a3, inset -8px -8px 15px #ffffff;
+    background-color: #e0e0e0;
     resize: none;
 }
 
 button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
     border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+    box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #ffffff;
     cursor: pointer;
-    font-size: 16px;
-    box-shadow: 6px 6px 12px #bebebe, -6px -6px 12px #ffffff;
+    transition: all 0.3s;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #d1d1d1;
+    box-shadow: inset 5px 5px 10px #a3a3a3, inset -5px -5px 10px #ffffff;
 }
 
 .result-section {
-    background-color: #ffffff;
-    box-shadow: 7px 7px 14px #bebebe, -7px -7px 14px #ffffff;
+    background-color: #e0e0e0;
+    box-shadow: 8px 8px 15px #a3a3a3, -8px -8px 15px #ffffff;
+    border-radius: 20px;
     padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
 }
